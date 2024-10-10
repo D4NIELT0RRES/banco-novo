@@ -1,0 +1,147 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+ul, ol, li {
+    list-style: none;
+}
+
+/* Fim do reset */
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding-inline: 80px;
+    background-color: #1e1e1e;
+}
+header {
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #ffff;
+}
+.logo {
+    text-align: center;
+    font-size: 60px;
+}
+.menu ul, li {
+    display: flex;
+    gap: 5vh;
+    font-size: 32px;
+    text-align: center;
+}
+button {
+    width: 20vh;
+    height: 40px;
+    border: solid 1px rgb(0, 0, 0);
+    border-radius: 20px;
+    color: black;
+    background-color: #eafb41;
+    text-align: center;
+    font-size: 16px;
+}
+.inter {
+    text-align: center;
+}
+main {
+    flex-grow: 1;
+    display: flex;
+    color: #ffff;
+}
+
+.conteudo {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    background-color: #0000;
+    gap: 100px;
+}
+.conteudo h1{
+    font-size: 15px;
+    color: #eafb41;
+}
+.conteudo p{
+    font-size: 40px;
+    width: 33%;
+    font-family: 'Times New Roman', Times, serif;
+}
+.conteudo button {
+    height: 100px;
+}
+.titulo {
+    background-color: #1e1e1e;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+/* Container principal */
+/* Container principal da seção inferior */
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000000; /* Fundo preto */
+    padding: 20px 50px; /* Espaçamento interno */
+    color: #fff; /* Texto branco */
+    height: 190px; /* Altura da seção */
+  }
+  
+  /* Seção do texto */
+  .texto {
+    display: flex;
+    align-items: center; /* Alinha o texto e o ícone verticalmente */
+    background-color: #333333; /* Fundo cinza escuro */
+    padding: 20px;
+    border-radius: 1px; /* Bordas arredondadas como na imagem */
+    color: white; /* Cor do texto */
+    font-size: 30px; /* Tamanho da fonte */
+    height: 18vh;
+    width: 30%;    
+  }
+  
+  .text-section {
+    margin: 0; /* Remove o espaçamento padrão do parágrafo */
+    font-size: 30px;
+    width: 50vh;
+  }
+  
+  /* Ícone de download ao lado do texto */
+  .download-icon {
+    font-size: 30px;
+    margin-left: 10px; /* Espaço entre o texto e o ícone */
+    color: white;
+  }
+  
+  /* Seção das logos */
+  .logos-section {
+    display: flex;
+    gap: 40px; /* Espaçamento entre as logos */
+    padding: 0 20px; /* Espaçamento horizontal */
+  }
+  
+  /* Estilo base para todas as logos */
+  .logo {
+    width: 80px; /* Ajusta o tamanho das logos */
+    height: 40px; 
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  /* Logos individuais */
+  .nasa {
+    background-image: url('./logo_nasa.png'); /* Substitua pelos caminhos corretos */
+  }
+  
+  .spotify {
+    background-image: url('./logospotify.png');
+    
+  }
