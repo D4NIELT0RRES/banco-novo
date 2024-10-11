@@ -27,7 +27,7 @@ header {
     align-items: center;
     color: #ffff;
 }
-.logo {
+.photo {
     text-align: center;
     font-size: 60px;
 }
@@ -38,110 +38,119 @@ header {
     text-align: center;
 }
 button {
-    width: 20vh;
-    height: 40px;
+    width: 25vh;
+    height: 60px;
     border: solid 1px rgb(0, 0, 0);
     border-radius: 20px;
     color: black;
     background-color: #eafb41;
     text-align: center;
-    font-size: 16px;
+    font-size: 20px;
 }
-.inter {
+#es{
+    width: 25vh;
+    height: 60px;
+    border: solid 1px rgb(0, 0, 0);
+    border-radius: 20px;
+    color: black;
+    background-color: #eafb41;
     text-align: center;
+    font-size: 20px;
+    margin-top: 50px;
 }
 main {
-    flex-grow: 1;
+    flex-grow: 2;
     display: flex;
     color: #ffff;
 }
-
-.conteudo {
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    background-color: #0000;
-    gap: 100px;
-}
-.conteudo h1{
-    font-size: 15px;
-    color: #eafb41;
-}
-.conteudo p{
-    font-size: 40px;
-    width: 33%;
-    font-family: 'Times New Roman', Times, serif;
-}
-.conteudo button {
-    height: 100px;
-}
 .titulo {
-    background-color: #1e1e1e;
-    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    width: 50%;    
 }
-/* Container principal */
-/* Container principal da seção inferior */
+.titulo h2{
+    font-size: 20px;
+    color: #eafb41;
+    
+    
+    
+}
+.titulo p{
+    font-size: 60px;
+    width: 35%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
 .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #000000; /* Fundo preto */
-    padding: 20px 50px; /* Espaçamento interno */
-    color: #fff; /* Texto branco */
-    height: 190px; /* Altura da seção */
-  }
+    background-color: #000000; 
+    color: #fff; 
+    height: 200px;
+
+}
   
-  /* Seção do texto */
-  .texto {
+  
+.texto {
     display: flex;
-    align-items: center; /* Alinha o texto e o ícone verticalmente */
-    background-color: #333333; /* Fundo cinza escuro */
+    align-items: center; 
+    background-color: #333333; 
     padding: 20px;
-    border-radius: 1px; /* Bordas arredondadas como na imagem */
-    color: white; /* Cor do texto */
-    font-size: 30px; /* Tamanho da fonte */
-    height: 18vh;
-    width: 30%;    
-  }
+    border-radius: 1px; 
+    color: white; 
+    font-size: 30px; 
+    height: 200px ;
+    width: 23%;
+
+}
   
-  .text-section {
-    margin: 0; /* Remove o espaçamento padrão do parágrafo */
-    font-size: 30px;
-    width: 50vh;
-  }
-  
-  /* Ícone de download ao lado do texto */
-  .download-icon {
-    font-size: 30px;
-    margin-left: 10px; /* Espaço entre o texto e o ícone */
-    color: white;
-  }
-  
-  /* Seção das logos */
-  .logos-section {
+.logos {
     display: flex;
-    gap: 40px; /* Espaçamento entre as logos */
-    padding: 0 20px; /* Espaçamento horizontal */
-  }
+    justify-content: center;
+    gap: 40px; 
+    padding: 0 20px; 
+    width: 70%;
+    align-items: center;
+}
   
-  /* Estilo base para todas as logos */
-  .logo {
-    width: 80px; /* Ajusta o tamanho das logos */
-    height: 40px; 
+.logo {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 200px;
+    height: 100px; 
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-  }
-  
-  /* Logos individuais */
-  .nasa {
-    background-image: url('./logo_nasa.png'); /* Substitua pelos caminhos corretos */
-  }
-  
-  .spotify {
-    background-image: url('./logospotify.png');
-    
-  }
+}
+
+.nasa {
+    background-image: url('./nasa.png'); 
+}
+.spotify {
+    background-image: url('./spotify1.png'); 
+}
+.microsoft {
+    background-image: url('./microsoft.png');
+}
+.facebook {
+    background-image: url('./facebook.png');
+}
+.seta {
+    position: absolute;
+    left: 23%;
+}
+.arrow {
+   position: absolute;
+   top: 63.4%;
+   left: 15%;
+}
+.arrow1 {
+    position: absolute;
+    top: 64%;
+    left: 15.4%;
+}
+
+
