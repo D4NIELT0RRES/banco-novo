@@ -69,15 +69,13 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 50%;    
+    width: 50%;
 }
+
 .titulo h2{
-    font-size: 20px;
-    color: #eafb41;
-    
-    
-    
+    font-size: 20px;    
 }
+
 .titulo p{
     font-size: 60px;
     width: 35%;
@@ -93,6 +91,19 @@ main {
      position: absolute;
      top: 64%;
      left: 15.4%;
+ }
+ .card{
+    position: absolute;
+    max-width: 100vh;
+    top: 5%;
+    left: 40%;
+ }
+ .selo {
+    position: absolute;
+    max-width: 100vh;
+    left: 80%;
+    top: 13%;
+    
  }
 
  /* Footer */
@@ -144,7 +155,7 @@ main {
 .nasa {
     background-image: url('./nasa.png'); 
 }
-.spotify {
+.spotify {    
     background-image: url('./spotify1.png'); 
 }
 .microsoft {
@@ -157,5 +168,6 @@ main {
     position: absolute;
     left: 23%;
 }
+
 
 
