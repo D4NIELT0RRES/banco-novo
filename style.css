@@ -97,6 +97,65 @@ main {
 
  /* Footer */
 
+ .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000000; 
+    color: #fff; 
+    height: 200px;
 
+}
+  
+  
+.texto {
+    display: flex;
+    align-items: center; 
+    background-color: #333333; 
+    padding: 20px;
+    border-radius: 1px; 
+    color: white; 
+    font-size: 30px; 
+    height: 200px ;
+    width: 23%;
+
+}
+  
+.logos {
+    display: flex;
+    justify-content: center;
+    gap: 40px; 
+    padding: 0 20px; 
+    width: 70%;
+    align-items: center;
+}
+  
+.logo {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 200px;
+    height: 100px; 
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.nasa {
+    background-image: url('./nasa.png'); 
+}
+.spotify {
+    background-image: url('./spotify1.png'); 
+}
+.microsoft {
+    background-image: url('./microsoft.png');
+}
+.facebook {
+    background-image: url('./facebook.png');
+}
+.seta {
+    position: absolute;
+    left: 23%;
+}
 
 
